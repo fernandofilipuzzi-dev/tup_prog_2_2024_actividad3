@@ -53,8 +53,8 @@
             this.btnAginacionGuardias = new System.Windows.Forms.Button();
             this.nupMDuracion = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
-            this.nupHDesde = new System.Windows.Forms.NumericUpDown();
-            this.nupMDesde = new System.Windows.Forms.NumericUpDown();
+            this.nupHGuardiaDesde = new System.Windows.Forms.NumericUpDown();
+            this.nupMGuardiaDesde = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbNumeroPlaca = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
@@ -65,8 +65,8 @@
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupNumeroGuardia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMDuracion)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupHDesde)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupMDesde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupHGuardiaDesde)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupMGuardiaDesde)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAltaComisaria
@@ -98,7 +98,7 @@
             this.btnListrarIncidentes.Name = "btnListrarIncidentes";
             this.btnListrarIncidentes.Size = new System.Drawing.Size(132, 52);
             this.btnListrarIncidentes.TabIndex = 1;
-            this.btnListrarIncidentes.Text = "Listar incidentes";
+            this.btnListrarIncidentes.Text = "Listar incidentes(4)";
             this.btnListrarIncidentes.UseVisualStyleBackColor = true;
             this.btnListrarIncidentes.Click += new System.EventHandler(this.btnListrarIncidentes_Click);
             // 
@@ -224,7 +224,7 @@
             this.btnRegistrarIncidente.Name = "btnRegistrarIncidente";
             this.btnRegistrarIncidente.Size = new System.Drawing.Size(106, 51);
             this.btnRegistrarIncidente.TabIndex = 11;
-            this.btnRegistrarIncidente.Text = "Registrar Indicente";
+            this.btnRegistrarIncidente.Text = "Registrar Indicente(3)";
             this.btnRegistrarIncidente.UseVisualStyleBackColor = true;
             this.btnRegistrarIncidente.Click += new System.EventHandler(this.btnRegistrarDenuncia_Click);
             // 
@@ -269,8 +269,8 @@
             this.groupBox3.Controls.Add(this.btnAginacionGuardias);
             this.groupBox3.Controls.Add(this.nupMDuracion);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Controls.Add(this.nupHDesde);
-            this.groupBox3.Controls.Add(this.nupMDesde);
+            this.groupBox3.Controls.Add(this.nupHGuardiaDesde);
+            this.groupBox3.Controls.Add(this.nupMGuardiaDesde);
             this.groupBox3.Location = new System.Drawing.Point(21, 74);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(612, 132);
@@ -320,7 +320,7 @@
             this.btnAginacionGuardias.Name = "btnAginacionGuardias";
             this.btnAginacionGuardias.Size = new System.Drawing.Size(132, 52);
             this.btnAginacionGuardias.TabIndex = 5;
-            this.btnAginacionGuardias.Text = "Asignación de las guardias";
+            this.btnAginacionGuardias.Text = "Asignación de las guardias(2)";
             this.btnAginacionGuardias.UseVisualStyleBackColor = true;
             this.btnAginacionGuardias.Click += new System.EventHandler(this.btnAsignarGuardias_Click);
             // 
@@ -345,29 +345,29 @@
             this.label3.TabIndex = 9;
             this.label3.Text = "Desde";
             // 
-            // nupHDesde
+            // nupHGuardiaDesde
             // 
-            this.nupHDesde.Location = new System.Drawing.Point(157, 57);
-            this.nupHDesde.Maximum = new decimal(new int[] {
+            this.nupHGuardiaDesde.Location = new System.Drawing.Point(157, 57);
+            this.nupHGuardiaDesde.Maximum = new decimal(new int[] {
             24,
             0,
             0,
             0});
-            this.nupHDesde.Name = "nupHDesde";
-            this.nupHDesde.Size = new System.Drawing.Size(62, 26);
-            this.nupHDesde.TabIndex = 2;
+            this.nupHGuardiaDesde.Name = "nupHGuardiaDesde";
+            this.nupHGuardiaDesde.Size = new System.Drawing.Size(62, 26);
+            this.nupHGuardiaDesde.TabIndex = 2;
             // 
-            // nupMDesde
+            // nupMGuardiaDesde
             // 
-            this.nupMDesde.Location = new System.Drawing.Point(231, 57);
-            this.nupMDesde.Maximum = new decimal(new int[] {
+            this.nupMGuardiaDesde.Location = new System.Drawing.Point(231, 57);
+            this.nupMGuardiaDesde.Maximum = new decimal(new int[] {
             59,
             0,
             0,
             0});
-            this.nupMDesde.Name = "nupMDesde";
-            this.nupMDesde.Size = new System.Drawing.Size(59, 26);
-            this.nupMDesde.TabIndex = 3;
+            this.nupMGuardiaDesde.Name = "nupMGuardiaDesde";
+            this.nupMGuardiaDesde.Size = new System.Drawing.Size(59, 26);
+            this.nupMGuardiaDesde.TabIndex = 3;
             // 
             // label1
             // 
@@ -398,7 +398,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormPrincipal";
-            this.Text = "Actividad 2 - \"Ana es policia!\"";
+            this.Text = "Actividad 3 - \"Ana es policia!\"";
             this.groupBox1.ResumeLayout(false);
             this.gbAdministracion.ResumeLayout(false);
             this.gbAdministracion.PerformLayout();
@@ -410,8 +410,8 @@
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nupNumeroGuardia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupMDuracion)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupHDesde)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nupMDesde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupHGuardiaDesde)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nupMGuardiaDesde)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -430,9 +430,9 @@
         private System.Windows.Forms.NumericUpDown nupNumeroGuardia;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown nupMDesde;
+        private System.Windows.Forms.NumericUpDown nupMGuardiaDesde;
         private System.Windows.Forms.NumericUpDown nupMDuracion;
-        private System.Windows.Forms.NumericUpDown nupHDesde;
+        private System.Windows.Forms.NumericUpDown nupHGuardiaDesde;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbMotivo;

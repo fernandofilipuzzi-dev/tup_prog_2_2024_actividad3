@@ -15,12 +15,12 @@ namespace Actividad3.Models
         override public string VerDescripcion()
         {
             string descripcion =
-$@"Denuncia Policial, Emitida a las {Hora}:{Minuto} 
+  $@"Orden de Arresto, Emitada a las {Hora}:{Minuto} 
 Motivo: {Motivo}
-Agente policial inteviniente: {OficialACargo.VerDatos()}
-Sujeto Denunciante:{OficialACargo.VerDatos()}
+Sujeto a arrestar:{Sujeto.VerDatos()}
+Orden: Por la presente se ordena al arresto inmediato de {Sujeto.VerDatos()}. El Agente {OficialACargo.VerDatos()} está autorizado a proceder con el arresto conforme a las leyes y regulaciones aplicadas
 ";
-            
+
             return descripcion;
         }
     }

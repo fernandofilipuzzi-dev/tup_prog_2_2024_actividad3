@@ -71,7 +71,7 @@ namespace Actividad3.Models
             {
                 nueva = new Denuncia(agente, persona);
             }
-            else if (tipoIncidente == 0)
+            else if (tipoIncidente == 1)
             {
                 nueva = new Arresto(agente, persona);
             }
