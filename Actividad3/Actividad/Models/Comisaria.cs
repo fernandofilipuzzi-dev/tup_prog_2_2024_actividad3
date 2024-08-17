@@ -7,7 +7,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio1.Models
+namespace Actividad3.Models
 {
     public class Comisaria
     {
@@ -64,20 +64,27 @@ namespace Ejercicio1.Models
             }
         }
 
-
-
-        public void RegistrarIncidente(Policia agente, Persona persona,
-                                    string motivo, int hIncidente, int mIncidente,
-                                    int tipoIncidente)
+        public void RegistrarIncidente(Policia agente, Persona persona, string motivo, int hIncidente, int mIncidente, int tipoIncidente)
         {
+            Incidente nueva = null;
+            if (tipoIncidente == 0)
+            {
+                nueva = new Denuncia(agente, persona);
+            }
+            else if (tipoIncidente == 0)
+            {
+                nueva = new Arresto(agente, persona);
+            }
 
-            Incidente nueva = new Incidente(agente, persona);
-            incidentes.Add(nueva);
+            if (nueva != null)
+            {
+                incidentes.Add(nueva);
 
-            nueva.Hora = hIncidente;
-            nueva.Minuto = mIncidente;
-            nueva.Motivo = motivo;
-            nueva.TipoIncidente = tipoIncidente;
+                nueva.Hora = hIncidente;
+                nueva.Minuto = mIncidente;
+                nueva.Motivo = motivo;
+                nueva.TipoIncidente = tipoIncidente;
+            }
         }
 
         public Incidente VerIncidente(int idx)

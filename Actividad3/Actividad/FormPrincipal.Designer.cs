@@ -1,4 +1,4 @@
-﻿namespace Ejercicio1
+﻿namespace Actividad3
 {
     partial class FormPrincipal
     {
@@ -76,7 +76,7 @@
             this.btnAltaComisaria.Name = "btnAltaComisaria";
             this.btnAltaComisaria.Size = new System.Drawing.Size(132, 52);
             this.btnAltaComisaria.TabIndex = 0;
-            this.btnAltaComisaria.Text = "Creación comisaría";
+            this.btnAltaComisaria.Text = "Creación comisaría(1)";
             this.btnAltaComisaria.UseVisualStyleBackColor = true;
             this.btnAltaComisaria.Click += new System.EventHandler(this.btnAltaComisaria_Click);
             // 

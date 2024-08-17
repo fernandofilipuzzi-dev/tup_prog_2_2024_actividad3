@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio1.Models
+namespace Actividad3.Models
 {
     public class Guardia
     {

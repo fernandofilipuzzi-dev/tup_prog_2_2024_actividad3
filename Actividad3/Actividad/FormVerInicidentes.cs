@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1
+namespace Actividad3
 {
     public partial class FormVerInicidentes : Form
     {

@@ -1,4 +1,4 @@
-﻿using Ejercicio1.Models;
+﻿using Actividad3.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicio1
+namespace Actividad3
 {
     public partial class FormPrincipal : Form
     {
@@ -86,7 +86,6 @@ namespace Ejercicio1
                 int tipoIncidente = cbxIncidente.SelectedIndex;
 
                 destacamento.RegistrarIncidente(agente, persona, motivo, hIncidente, mIncidente, tipoIncidente);
-
 
                 #region clear
                 cmbNumeroPlaca.SelectedIndex = -1;

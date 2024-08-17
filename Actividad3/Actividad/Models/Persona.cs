@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio1.Models
+namespace Actividad3.Models
 {
     public class Persona
     {
@@ -17,7 +17,7 @@ namespace Ejercicio1.Models
             this.Nombre = nombre;
         }
 
-        public string VerDatos()
+        virtual public string VerDatos()
         {
             return $"{this.Nombre}(DNI:{this.DNI})";
         }
