@@ -398,8 +398,8 @@
 <XPD:REF name="Model">li2VNy5vYESNW2wRH1IZzwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="TailRoleNameLabel" type="EdgeLabelView" guid="tNRWTafydEiIiL78DInEVQAA">
-<XPD:ATTR name="Alpha" type="real">0,98634474040472</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">84,9293824303462</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">0,900824948596468</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">87,8635305459552</XPD:ATTR>
 <XPD:ATTR name="EdgePosition" type="EdgePositionKind">epTail</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">+&lt;&lt;readonly&gt;&gt;oficialAsignado</XPD:ATTR>
 <XPD:REF name="Model">dGAcy2hvRkqlQQc+2WISdAAA</XPD:REF>
@@ -454,7 +454,7 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">448</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">200</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">285</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">369</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">121</XPD:ATTR>
 <XPD:REF name="Model">CDJuXSUjukqMkQrcoau4KAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="PwRQZ381x0uXWb8j86wj2AAA">
@@ -483,7 +483,7 @@
 <XPD:OBJ name="OwnedViews[7]" type="UMLAssociationView" guid="cT3GXzkjT0GWv2oRj/IWlgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">540,200;510,164</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">565,200;525,164</XPD:ATTR>
 <XPD:REF name="Model">OFb7IwJgfkeKEVXHRHiuHwAA</XPD:REF>
 <XPD:REF name="Head">/EB9zFe3G0uv/4Tl5XfCagAA</XPD:REF>
 <XPD:REF name="Tail">CRPCl4ZaukKl2IC0vtsWIgAA</XPD:REF>
@@ -567,7 +567,7 @@
 <XPD:OBJ name="OwnedViews[8]" type="UMLAssociationView" guid="jp3YoinF3kKy3+XCbqmf9AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">395,408;511,320</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">406,408;540,320</XPD:ATTR>
 <XPD:REF name="Model">pLQIAalS8k6mW/kAWo/2dAAA</XPD:REF>
 <XPD:REF name="Head">CRPCl4ZaukKl2IC0vtsWIgAA</XPD:REF>
 <XPD:REF name="Tail">VUvcrCTaL0Wz5ZnqzOLfPgAA</XPD:REF>
@@ -682,7 +682,7 @@
 <XPD:OBJ name="OwnedViews[10]" type="UMLAssociationView" guid="keSTJm77vUSQ3M+AlD5TbQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">637,404;610,320</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">647,404;638,320</XPD:ATTR>
 <XPD:REF name="Model">kMjVq/iEykmibRaWkpwDtQAA</XPD:REF>
 <XPD:REF name="Head">CRPCl4ZaukKl2IC0vtsWIgAA</XPD:REF>
 <XPD:REF name="Tail">5cKnKaHRSUWtfNrz4Zp0CAAA</XPD:REF>
@@ -712,8 +712,8 @@
 <XPD:REF name="Model">1tfay0agzkq6EFUOQXOHcAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="TailRoleNameLabel" type="EdgeLabelView" guid="6dyaX8Kj50Sd+PxFZwutGwAA">
-<XPD:ATTR name="Alpha" type="real">5,01858139338043</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">38,0131556174964</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">4,76814185488832</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">61,8142378421024</XPD:ATTR>
 <XPD:ATTR name="EdgePosition" type="EdgePositionKind">epTail</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">+&lt;&lt;readonly&gt;&gt;Sujeto</XPD:ATTR>
 <XPD:REF name="Model">AVnKdEvDKkimbDsNFjRivAAA</XPD:REF>
