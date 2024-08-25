@@ -1249,27 +1249,32 @@
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="A6hz5lN5HU27pBydIipccgAA">
 <XPD:ATTR name="Name" type="string">RegistrarIncidente</XPD:ATTR>
 <XPD:REF name="Owner">N/IQReGrGUmoG+Y1ufB3YwAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">5</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="+lWo1uzHwEyp9y8NfAqN+wAA">
+<XPD:ATTR name="#Parameters" type="integer">6</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Z06+cCDjkkaJpqRoCcz/agAA">
 <XPD:ATTR name="Name" type="string">agente</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
 <XPD:REF name="Type_">DA2DzFnIP0OAzfx7NhfNjgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="G+yxb/g/qEWXtix08QXc1AAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="FSqyJ/4bIEGSbMpc4gAkagAA">
 <XPD:ATTR name="Name" type="string">sujeto</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
 <XPD:REF name="Type_">Je004FuY/0qPqBR18aHfUgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[2]" type="UMLParameter" guid="g/XOk7yLfk6xzpvVjWfVkAAA">
+<XPD:OBJ name="Parameters[2]" type="UMLParameter" guid="v3tBzgm/HUysdVrwvM/CxgAA">
 <XPD:ATTR name="Name" type="string">motivo</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[3]" type="UMLParameter" guid="u2NfsWd30UeWjjD/tLIP2QAA">
+<XPD:OBJ name="Parameters[3]" type="UMLParameter" guid="qYr8pKhejE+bo09tXx1qagAA">
 <XPD:ATTR name="Name" type="string">h</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[4]" type="UMLParameter" guid="kQJFOQyFm0+bsbkiheaDAgAA">
+<XPD:OBJ name="Parameters[4]" type="UMLParameter" guid="iJHAZFidAUy3GypgKS/v0AAA">
 <XPD:ATTR name="Name" type="string">m</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[5]" type="UMLParameter" guid="5pbPcLrjZUm3hVWzumVyPAAA">
+<XPD:ATTR name="Name" type="string">tipoIncidente</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">A6hz5lN5HU27pBydIipccgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -1381,9 +1386,9 @@
 <XPD:REF name="TypedParameters[0]">M1kLNY60HEKp39oEtgcsDAAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">7hXW49zVl0KNJQyalh8CGAAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">yJPxJyQRP0W76MAbwpNZcQAA</XPD:REF>
-<XPD:REF name="TypedParameters[3]" pathname="agente">Asu/Y9ynrEOb+aqSjBL3AgAA</XPD:REF>
-<XPD:REF name="TypedParameters[4]">YcLT1yqkQ0mdR8EQHti1qAAA</XPD:REF>
-<XPD:REF name="TypedParameters[5]">+lWo1uzHwEyp9y8NfAqN+wAA</XPD:REF>
+<XPD:REF name="TypedParameters[3]">YcLT1yqkQ0mdR8EQHti1qAAA</XPD:REF>
+<XPD:REF name="TypedParameters[4]" pathname="agente">+lWo1uzHwEyp9y8NfAqN+wAA</XPD:REF>
+<XPD:REF name="TypedParameters[5]">Z06+cCDjkkaJpqRoCcz/agAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">3</XPD:ATTR>
 <XPD:REF name="Associations[0]">cz3LhA9qjEigy7Edrb/fPAAA</XPD:REF>
 <XPD:REF name="Associations[1]">FjVW/ndip02dp+/AmAOTRgAA</XPD:REF>
@@ -1544,9 +1549,9 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
-<XPD:REF name="TypedParameters[0]" pathname="sujeto">AhXsPcPzwkiNM7jz6PUeCgAA</XPD:REF>
-<XPD:REF name="TypedParameters[1]">W3pwQlStTUqICAKmmOmEowAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">G+yxb/g/qEWXtix08QXc1AAA</XPD:REF>
+<XPD:REF name="TypedParameters[0]">W3pwQlStTUqICAKmmOmEowAA</XPD:REF>
+<XPD:REF name="TypedParameters[1]" pathname="sujeto">G+yxb/g/qEWXtix08QXc1AAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">FSqyJ/4bIEGSbMpc4gAkagAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">AVnKdEvDKkimbDsNFjRivAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
