@@ -459,7 +459,7 @@
 <XPD:REF name="Model">CDJuXSUjukqMkQrcoau4KAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="PwRQZ381x0uXWb8j86wj2AAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="UbNin74COkiqFRmXRnkdHgAA">
-<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="FontStyle" type="integer">3</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">Incidente</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="SHlnxAZ5O0OqtRazV2yqnAAA">
@@ -1382,13 +1382,12 @@
 <XPD:REF name="BehavioralFeature">KZ4OLc+Fw0OpStC5vUf4awAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">6</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">5</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">M1kLNY60HEKp39oEtgcsDAAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">7hXW49zVl0KNJQyalh8CGAAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">yJPxJyQRP0W76MAbwpNZcQAA</XPD:REF>
 <XPD:REF name="TypedParameters[3]">YcLT1yqkQ0mdR8EQHti1qAAA</XPD:REF>
-<XPD:REF name="TypedParameters[4]" pathname="agente">+lWo1uzHwEyp9y8NfAqN+wAA</XPD:REF>
-<XPD:REF name="TypedParameters[5]">Z06+cCDjkkaJpqRoCcz/agAA</XPD:REF>
+<XPD:REF name="TypedParameters[4]">Z06+cCDjkkaJpqRoCcz/agAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">3</XPD:ATTR>
 <XPD:REF name="Associations[0]">cz3LhA9qjEigy7Edrb/fPAAA</XPD:REF>
 <XPD:REF name="Associations[1]">FjVW/ndip02dp+/AmAOTRgAA</XPD:REF>
@@ -1439,6 +1438,7 @@
 <XPD:OBJ name="OwnedElements[3]" type="UMLClass" guid="CDJuXSUjukqMkQrcoau4KAAA">
 <XPD:ATTR name="Name" type="string">Incidente</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">abstract</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Namespace">w8I8LSC420+92S21xrW+wQAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">8</XPD:ATTR>
 <XPD:REF name="Views[0]">CRPCl4ZaukKl2IC0vtsWIgAA</XPD:REF>
@@ -1472,6 +1472,7 @@
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="vBtcFX24G0SLUAuBN3fA+gAA">
 <XPD:ATTR name="Name" type="string">VerDescripcion</XPD:ATTR>
 <XPD:ATTR name="StereotypeName" type="string">abstract</XPD:ATTR>
+<XPD:ATTR name="IsAbstract" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Owner">CDJuXSUjukqMkQrcoau4KAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="+6CoLV5mMkm3TPUCQ+7MRwAA">
@@ -1548,10 +1549,9 @@
 <XPD:REF name="BehavioralFeature">HNANfhMTgECSBoB9+1d46wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">W3pwQlStTUqICAKmmOmEowAA</XPD:REF>
-<XPD:REF name="TypedParameters[1]" pathname="sujeto">G+yxb/g/qEWXtix08QXc1AAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">FSqyJ/4bIEGSbMpc4gAkagAA</XPD:REF>
+<XPD:REF name="TypedParameters[1]">FSqyJ/4bIEGSbMpc4gAkagAA</XPD:REF>
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">AVnKdEvDKkimbDsNFjRivAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
